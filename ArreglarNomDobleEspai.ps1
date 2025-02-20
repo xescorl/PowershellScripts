@@ -1,6 +1,5 @@
 ﻿# Define the target directory
-#$targetDirectory = "C:\Users\jros\Desktop\proyectos\ISO\test"
-$targetDirectory = "C:\Users\jros\Dropbox\2_ISO EXPOCOM"
+$targetDirectory = '##'
 
 # Get all files in the target path
 $files = Get-ChildItem -Path $targetDirectory -File -Recurse
