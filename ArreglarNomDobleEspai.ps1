@@ -1,5 +1,5 @@
 ﻿# Define the target directory
-$targetDirectory = '##'
+$targetDirectory = "##"
 
 # Get all files in the target path
 $files = Get-ChildItem -Path $targetDirectory -File -Recurse
